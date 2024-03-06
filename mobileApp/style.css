@@ -87,7 +87,7 @@ body{
     margin: 5px;
 }
 .botones {
-    background-color: var(--Grey);
+    background-color: var(--DarkGrey);
     font-family: 'Inter-SemiBold', sans-serif;
     color: var(--White);
     width: 100%;
