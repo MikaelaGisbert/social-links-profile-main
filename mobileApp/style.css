@@ -86,8 +86,8 @@ body{
     width: 230px;
     margin: 5px;
 }
-.botones {
-    background-color: var(--DarkGrey);
+.inferior .botones {
+    background-color: var(--Grey);
     font-family: 'Inter-SemiBold', sans-serif;
     color: var(--White);
     width: 100%;
