@@ -14,28 +14,42 @@
 }
 
 body{
+    /* font-size: 1.4rem;
+    background-color: var(--OffBlack);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0; */
+
     background-color: var(--OffBlack);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    margin: 0;
+    margin: 0; 
     /* height: 650px;
     width: 375px; */
 }
-.cabeza {
+.container .cabeza {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80px; 
-    width: 80px;
+    width: 80px; 
+
 }
-.cabeza img {
+.container .cabeza img {
     width: 100%;
     height: auto;
     object-fit: cover;
-    border-radius: 50%;   
+    border-radius: 50%;  
+
   }
   
 .container{
@@ -49,14 +63,8 @@ body{
     align-items: center;   
     text-align: center;
 }
-.cabeza{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    
 
-}
-.nombre{
+.container .medio .nombre{
     color: var(--White);
     font-family: 'Inter', sans-serif;
     font-size:20px;
@@ -64,20 +72,20 @@ body{
     margin-bottom: 8px;
     font-weight: 700;
 }
-.nacionalidad{
+.container .medio .nacionalidad{
     color: var(--Green);
     font-family: 'Inter', sans-serif;
     margin: 8px;
     font-size: 12px;
     font-weight: 600;
 }
-.descripcion{
+.container .medio .descripcion{
     color: var(--White);
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 400;
 }
-.inferior {
+.container .inferior {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -86,7 +94,7 @@ body{
     width: 230px;
     margin: 5px;
 }
-.inferior .botones {
+.container .inferior .botones {
     background-color: var(--Grey);
     font-family: 'Inter-SemiBold', sans-serif;
     color: var(--White);
@@ -101,7 +109,47 @@ body{
     transition: background-color 0.3s;
 }
 
-.botones:hover {
+.container .inferior .botones:hover {
     background-color: var(--Green); 
     color: var(--OffBlack);
 }
+
+.botonPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20%;
+    width: 100%;
+    margin: 5px;
+    
+}
+.botonAgregar {
+    background-color: var(--Grey);
+    font-family: 'Inter-SemiBold', sans-serif;
+    color: var(--White);
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    transition: background-color 0.3s;
+  }
+
+.botonAgregar:hover {
+    background-color: var(--Green); 
+    color: var(--OffBlack);
+}
+
+.main {
+    max-width: 120rem; 
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 2rem;
+}
+

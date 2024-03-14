@@ -1,24 +1,23 @@
 .container{
     width: 350px;
     height: 540px;
-}
-.nacionalidad{
-    
-    margin-bottom: 25px;
 
 }
-.descripcion{
+.container .cabeza .nacionalidad{
+    margin-bottom: 25px;
+}
+.container .cabeza .descripcion{
     color: var(--White);
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 70px;
 }
-.inferior {
+.container .inferior {
     margin-bottom:-15px ;
 }
 
-.botones {
+.inferior .botones {
     background-color: var(--Grey);
     font-family: 'Inter-SemiBold', sans-serif;
     color: var(--White);
