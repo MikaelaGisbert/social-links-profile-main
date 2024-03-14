@@ -1,0 +1,33 @@
+.container{
+    width: 350px;
+    height: 540px;
+
+}
+.container .cabeza .nacionalidad{
+    margin-bottom: 25px;
+}
+.container .cabeza .descripcion{
+    color: var(--White);
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+.container .inferior {
+    margin-bottom:-15px ;
+}
+
+.inferior .botones {
+    background-color: var(--Grey);
+    font-family: 'Inter-SemiBold', sans-serif;
+    color: var(--White);
+    width: 115%;
+    padding: 13px;
+    margin: 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    transition: background-color 0.3s;
+}
